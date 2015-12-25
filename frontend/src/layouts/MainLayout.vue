@@ -4,6 +4,7 @@ import { FileCog, ImagePlay, LayoutGrid, Terminal, TextInitial } from 'lucide-vu
 import { RouterView } from 'vue-router'
 
 import SideLink from '@/components/SideLink.vue'
+import SearchBar from '@/widgets/SearchBar.vue'
 </script>
 
 <template>
@@ -12,6 +13,8 @@ import SideLink from '@/components/SideLink.vue'
             <h2 class="title">
                 Классификация<br>пейзажей
             </h2>
+
+            <SearchBar />
 
             <SideLink link="/">
                 <TextInitial :size="16" />
