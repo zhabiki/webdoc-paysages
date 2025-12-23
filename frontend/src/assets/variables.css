@@ -1,0 +1,21 @@
+html {
+    --black: #161616;
+    --white: #fff;
+
+    --white-33: #fff3;
+    --white-55: #fff5;
+    --white-99: #fff9;
+
+    --bg: #59b2c2;
+    --bg-fancy: linear-gradient(in oklab, #38a2b4 20%, #adfafa);
+
+    --accent: #006b8c;
+    --accent-dark: #003444;
+    --danger: #e6241d;
+    --warning: #e6b020;
+
+    --fonts: system-ui, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+
+    --BR-round: 9999px;
+    --BR-normal: 8px;
+}
