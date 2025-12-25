@@ -2,12 +2,11 @@
 Командный проект ОТД по теме нашей совместной работы MLOps «Классификация пейзажей».
 
 ## Технологический стек:
-- **Frontend** написан на TypeScript + (React либо Vue).js + Axios
-- **Backend** написан на Python (будем ли юзать Alembic?)
-- **База данных** — ???
-- **Модель** — Torch EfficientNetV2, [код для обучения см. здесь](https://github.com/zhabiki/paysage-classification)
+- **Frontend** написан на Vite + Vue 3 + TS + ECharts для графиков + Axios для запросов + Vue-Fuse для поиска
+- **Backend** написан на Python 3 + MySQL для базы данных
+- **Модель** — Torch EfficientNetV2, [код для обучения см. в этом репозитории](https://github.com/zhabiki/paysage-classification)
 
 ## Участники команды:
-- [Куропатов Андрей (22933)](https://github.com/AnHellCoder) — (тут типа пишем кто что делал)
-- [Никитин Иван (22930)](https://github.com/SamBara127) — (тут типа пишем кто что делал)
-- [Чеховский Владимир (22930)](https://github.com/bakafox) — (тут типа пишем кто что делал)
+- [Куропатов Андрей (22933)](https://github.com/AnHellCoder) — Бэкенд, архитектура модели
+- [Никитин Иван (22930)](https://github.com/SamBara127) — Бэкенд, база данных
+- [Чеховский Владимир (22930)](https://github.com/bakafox) — Фронтенд, код модели
