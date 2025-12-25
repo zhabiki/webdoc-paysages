@@ -1,11 +1,19 @@
+<script setup lang="ts">
+import { ref } from 'vue'
+
+const swaggerUrl = ref<string>(
+    `${import.meta.env.VITE_API_ROOT}/docs`,
+)
+</script>
+
 <template>
-    <iframe src="http://localhost:8000/docs" />
+    <iframe :src="swaggerUrl" />
 </template>
 
 <style lang="css" scoped>
     iframe {
-        background-color: var(--white-33);
         height: 100%;
+        background-color: var(--white-55);
         border: 0;
     }
 </style>

@@ -10,14 +10,15 @@
     button {
         appearance: none;
         padding: 8px 12px;
-        outline: none;
         background-color: var(--accent); color: var(--white);
         border: none; border-radius: var(--BR-normal);
         font-family: var(--fonts); font-weight: 600;
+        cursor: pointer;
         transition: var(--TR-normal);
 
         &:disabled {
             opacity: .4;
+            cursor: not-allowed;
         }
 
         &:not(:disabled):hover {

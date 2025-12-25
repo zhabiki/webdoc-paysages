@@ -18,8 +18,8 @@ const { link } = defineProps<{
 <style lang="css" scoped>
     .sidelink {
         display: flex; flex-direction: row;
-        align-items: center; gap: 6px;
-        padding: 8px 12px;
+        align-items: center;
+        padding: 8px 12px; gap: 6px;
         background-color: transparent; color: var(--accent-dark);
         border-radius: var(--BR-round);
         font-weight: 600; text-decoration: none;

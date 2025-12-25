@@ -2,8 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import MainLayout from '@/layouts/MainLayout.vue'
 import DetailsView from '@/views/DetailsView.vue'
-import HistoryInfoView from '@/views/HistoryInfoView.vue'
-import HistoryListView from '@/views/HistoryListView.vue'
+import HistoryView from '@/views/HistoryView.vue'
 import InferView from '@/views/InferView.vue'
 import IntroView from '@/views/IntroView.vue'
 import SwaggerView from '@/views/SwaggerView.vue'
@@ -32,13 +31,8 @@ const router = createRouter({
                 },
                 {
                     path: 'history',
-                    name: 'history-list',
-                    component: HistoryListView,
-                },
-                {
-                    path: 'history/:id',
-                    name: 'history-info',
-                    component: HistoryInfoView,
+                    name: 'history',
+                    component: HistoryView,
                 },
                 {
                     path: 'api',
